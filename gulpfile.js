@@ -81,7 +81,7 @@ gulp.task('html-watch', ['copy']);
 gulp.task('default', ['serve'], function () {
     console.log('this is the default task')
 });
-
+//发布压缩对应的程序到www 提供给打包使用
 gulp.task('publish', ['clean', 'copy', 'sass', 'js'], function () {
     console.log("app publish over");
 });
